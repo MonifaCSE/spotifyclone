@@ -1,4 +1,41 @@
-/* body{
+body{
      background-color: black;
      color: white;
-} */
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+nav {
+     
+}
+
+.left {
+    width: 25vw;
+}
+
+.right {
+    width: 75vw;
+}
+
+.lnav ul li {
+    width: 25px;
+    list-style: none;
+    display: inline-block;
+}
+.mnav ul li {
+    
+    list-style: none;
+    display: inline-block;
+}
+
+.rnav ul li {
+     
+    list-style: none;
+    display: inline-block;
+}
+.invert{
+    filter: invert(1);
+}
