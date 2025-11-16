@@ -1,41 +1,114 @@
-body{
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+ body {
      background-color: black;
      color: white;
-}
+ }
 
-.bg-black {
-    background-color: black;
-    color: white;
-}
 
-nav {
+ nav {
      
-}
+ }
 
-.left {
-    width: 25vw;
-}
+ .left {
+     width: 30vw;
+     padding: 10px;
+     margin: 4px;
+ }
 
-.right {
-    width: 75vw;
-}
+ .right {
+     width: 70vw;
+     padding: 10px;
+     margin: 4px;
+ }
 
-.lnav ul li {
-    width: 25px;
-    list-style: none;
-    display: inline-block;
-}
-.mnav ul li {
-    
-    list-style: none;
-    display: inline-block;
-}
+ .lnav ul li {
+     width: 25px;
+     list-style: none;
+     display: inline-block;
+     padding-left: 20px;
+     padding-top: 10px;
+ }
+.logo{
+     padding-left: 10px;
+     padding-top: 10px;
+ }
 
-.rnav ul li {
-     
-    list-style: none;
-    display: inline-block;
-}
-.invert{
-    filter: invert(1);
-}
+ .lnav {
+     width: 50vw;
+     gap: 20px;
+ }
+
+ .mnav {
+     width: 25vw;
+     margin-left: 120px;
+ }
+
+ .rnav {
+     width: 13vw;
+ }
+
+ .search {
+     width: 100px;
+
+ }
+
+ .mnav ul li {
+
+     list-style: none;
+     display: inline-block;
+     margin-left: 10px;
+
+ }
+
+ .rnav ul li {
+
+     list-style: none;
+     display: inline-block;
+     margin-left: 8px;
+ }
+
+ .invert {
+     filter: invert(1);
+ }
+
+ .bg-gray {
+     background-color: rgb(22, 19, 19);
+ }
+
+ .rounded {
+     border-radius: 5px;
+ }
+
+ .heading {
+     display: flex;
+     gap: 15px;
+     width: 100%;
+     padding-top: 7px;
+     font-weight: bold;
+     align-items: center;
+     font-size: 11px;
+ }
+
+ .heading img {
+     width: 30px;
+ }
+
+ .library {
+     height: 80vh;
+     position: relative;
+ }
+
+ .footer {
+     display: flex;
+     font-size: 11px;
+     gap: 10px;
+     position: absolute;
+     bottom: 0;
+
+ }
+
+
+ .footer a {
+     color: rgb(190, 183, 183);
+ }
