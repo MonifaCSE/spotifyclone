@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.border{
+    border-color: 5px solid red;
+}
  
 .flex{
     display: flex;
@@ -11,4 +14,9 @@
 }
 .item-center{
     align-items: center;
+}
+
+* {
+    scrollbar-width: thin;        /* thin scrollbar */
+    scrollbar-color: #444 #111;   /* thumb color | track color */
 }
