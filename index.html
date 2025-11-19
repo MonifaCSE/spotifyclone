@@ -4,60 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Spotify-Music Player</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
 </head>
 
 <body>
 
-    <div class="nav">
-        <div class="home flex">
-            <div class="logo invert"><img src="svg/logo.svg" alt=""></div>
-            <div class="lnav flex invert">
-                <ul>
-                    <li>
-                        <img src="svg/home.svg" alt="">
-                    </li>
-                    <li class="search">
-                        <img src="svg/search.svg" alt="">
-                    </li>
-                </ul>
-            </div>
-            <div class="mnav flex item-center">
-                <ul>
-                    <li>
-                        <button class="btn">Premium</button> 
-                    </li>
-                    <li>
-                        <button class="btn">Support</button> 
-                    </li>
-                    <li>
-                        <button class="btn">Download</button> 
-                    </li>
-                </ul>
-            </div>
-            <div class="rnav flex item-center">
-                <ul>
-                    <li>
-                        <button class="btn">Install</button> 
-                    </li>
-                    <li>
-                       <button class="btn">Sign Up</button> 
-                    </li>
-                    <li>
-                        <button class="loginbtn">Log in</button>
-                    </li>
-                </ul>
-            </div>
+    <div class="nav flex">
+
+        <div class="logo invert"><img src="svg/logo.svg" alt=""></div>
+        <div class="lnav flex invert">
+
+            <div class="home"><img src="svg/home.svg" alt=""></div>
+            <div class=""><img src="svg/search.svg" alt=""></div>
+
 
         </div>
+        <div class="mnav flex">
+
+
+            <button class="btn">Premium</button>
+
+            <button class="btn">Support</button>
+
+
+            <button class="btn">Download</button>
+            <h1> | </h1>
+
+        </div>
+        <div class="rnav flex">
+            <div class="install">
+                <img class="invert" src="svg/install.svg" alt="">
+
+                <button class="btn">Install App</button>
+            </div>
+
+
+            <button class="btn">Sign Up</button>
+            <button class="loginbtn">Log in</button>
+
+
+
+
+
+
+        </div>
+
     </div>
+
 
     <div class="container flex">
 
 
-        <div class="left border bg-gray rounded">
+        <div class="left bg-gray rounded">
             <div class="library">
 
                 <div class="heading">
@@ -101,31 +101,38 @@
                 </div>
 
 
-
-
-
             </div>
         </div>
 
 
-        <div class="right border bg-gray rounded">
+        <div class="right bg-gray rounded">
             <div class="songs">
                 <h2>Trending songs</h2><br>
                 <div class="cardcontainer">
                     <div class="card">
                         <div class="play">
-                            <img  src="svg/play-stroke-rounded.svg" alt="">
+                            <img src="svg/play.svg" alt="">
                         </div>
-                        <img src="https://i.scdn.co/image/ab67616d00001e02f741fd6836f6356a199adbab" alt="">
-                        <h3>Man l Need</h3> 
-                        <p>Olivia Dean</p>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02253e5eed319454b42335c1fe" alt="">
+                        <h4>Mast Qalandar | Coke Studio Bangla</h4> 
+                        <p>Runa Laila, Arnob, Adit Rahman</p>
                     </div>
 
-                     
+
 
                 </div>
                 <div class="playbar">
-                    Playbar
+<div class="songinfo">
+
+</div>
+                    <div class="songbtn">
+                        <img src="svg/prev.svg" alt="">
+                        <img src="svg/playb.svg" alt="">
+                        <img src="svg/next.svg" alt="">
+                    </div>
+                    <div class="songtime">
+
+                    </div>
                 </div>
             </div>
 
@@ -133,9 +140,7 @@
         </div>
     </div>
 
-    <script>
-
-    </script>
+    <script src="spotify.js"> </script>
 
 </body>
 

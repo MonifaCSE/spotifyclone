@@ -5,67 +5,54 @@
      color: white;
  }
 
- .left {
-     width: 30vw;
-     padding: 10px;
-     margin: 4px;
- }
+ /* Css for Navbar */
 
- .right {
-     width: 70vw;
-     padding: 10px;
-     margin: 4px;
-     position: relative;
+ .nav{
+     margin: 5px;
  }
+ 
 
- .lnav ul li {
-     width: 25px;
-     list-style: none;
-     display: inline-block;
+ 
+.logo{
+     width: 5vw;
      padding-left: 20px;
      padding-top: 10px;
  }
-.logo{
-     padding-left: 10px;
-     padding-top: 10px;
+
+ .lnav{
+     width: 45vw;
+     padding-left: 20px;
+     padding-top: 12px;
+     gap: 30px;
  }
 
- .lnav {
-     width: 50vw;
-     gap: 20px;
+ .lnav img{
+     
+     width: 25px;
  }
 
  .mnav {
-     width: 25vw;
-     margin-left: 150px;
+    width: 20vw;
+    gap: 10px;
+    padding-left: 160px;
  }
 
  .rnav {
-     width: 25vw;
- }
-
- .search {
-     width: 100px;
-
- }
-
- .mnav ul li {
-
-     list-style: none;
-     display: inline-block;
-     margin-left: 10px;
-      
-      
-
- }
-
- .rnav ul li {
-
-     list-style: none;
-     display: inline-block;
-     margin-left: 25px;
+    padding-left: 20px;
+    width: 30vw;
+    gap: 30px;
      
+      
  }
+
+ .rnav .install{
+    padding-top: 13px;
+ }
+
+ .rnav img{
+    width: 18px;
+ }
+
 
 .btn{
     background-color: black;
@@ -103,18 +90,30 @@
      
 }
 
+.mnav h1{
+    padding-top: 4px;
+   padding-left: 10px;
+}
 
- .invert {
-     filter: invert(1);
+/* CSS for Two container */
+
+.container{
+    margin: 2px;
+}
+
+ .left {
+     width: 30vw;
+     padding: 10px;
+     margin: 4px;
  }
 
- .bg-gray {
-     background-color: rgb(22, 19, 19);
+ .right {
+     width: 70vw;
+     padding: 10px;
+     margin: 4px;
+     position: relative;
  }
 
- .rounded {
-     border-radius: 5px;
- }
 
  .heading {
      display: flex;
@@ -161,23 +160,37 @@
 
  }
 
+ .card p{
+    color:  rgb(190, 183, 183);
+    font-size: 13px;
+ }
+
  .play img{
     width: 40px;
     border-radius: 30px;
-    background-color:  rgb(1, 202, 1);
     position: absolute;
     top: 120px;
     right: 17px;
-    opacity: 0;
+    /* opacity: 0;
     transition: all 1s ease-out;
+  */
  }
  .playbar{
      position: absolute;
      bottom: 0;
-     width: 100%;
-     background-color: rgb(29, 61, 36);
+     width: 920px;
+     background-color: rgb(66, 117, 66);
  }
 
+ .songbtn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+ }
+.songbtn img{
+    width: 30px;
+    
+}
  .footer {
      display: flex;
      font-size: 12px;

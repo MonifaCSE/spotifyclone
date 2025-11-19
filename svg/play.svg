@@ -1,0 +1,21 @@
+<svg height="200px" width="200px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000">
+  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+  <g id="SVGRepo_iconCarrier"> 
+    <style type="text/css"> 
+      .st0{fill:black;} 
+      .st1{fill:mediumseagreen;} 
+    </style> 
+    <g> 
+      <!-- Outer Circle in Medium Green -->
+      <circle class="st1" cx="256" cy="256" r="256"/>
+      
+      <!-- Center Triangle in Black -->
+      <path class="st0" d="M351.062,258.898l-144,85.945c-1.031,0.626-2.344,0.657-3.406,0.031 
+        c-1.031-0.594-1.687-1.702-1.687-2.937v-85.946v-85.946
+        c0-1.218,0.656-2.343,1.687-2.938c1.062-0.609,2.375-0.578,3.406,0.031 
+        l144,85.962c1.031,0.586,1.641,1.718,1.641,2.89
+        C352.703,257.187,352.094,258.297,351.062,258.898z"/>
+    </g> 
+  </g>
+</svg>
